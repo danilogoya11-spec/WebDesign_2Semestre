@@ -1,0 +1,77 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #18181B;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid rgba(255, 253, 253, 0.116);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.192);
+    text-align: justify;
+ }
+ header button{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+ }
+ .logo img {
+    height: 60px;      
+    width: auto;       
+    display: block;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+.capa img{
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+    display: block;
+    border-radius: 100px;
+
+}
+ .lista-carros{
+    display: grid;
+    gap: 0px;
+    padding: 20px;
+ }
+ .carros{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px;
+ }
+ .card{
+    width: 100%;
+    line-height: 1.5;
+ }
+ .card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+ }
+ .card button{
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+     font-weight: bold;
+
+ }
